@@ -1,0 +1,4 @@
+/* Universal selector: applies styling properties to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
