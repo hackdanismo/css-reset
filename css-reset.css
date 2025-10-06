@@ -38,6 +38,13 @@ html {
     -webkit-text-size-adjustment: 100%;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        /* Enable keyword animations */
+        interpolate-size: allow-keywords;
+    }
+}
+
 body {
     font-family: var(--default-font-stack);
     color: var(--default-font-color);
@@ -54,7 +61,7 @@ html, body {
     /* Remove the default padding */
     padding: 0;
     /* Improve readability */
-    line-height: 1.5;
+    line-height: calc(var(--root-font-size) / 16 + 0.5rem);
 }
 
 main {
@@ -68,6 +75,21 @@ section {
         var(--section-preferred-padding), 
         var(--section-maximum-padding)
     ) var(--section-horizontal-padding);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    /* Avoid text overflows */
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* Improve line wrapping */
+    text-wrap: balance;
+}
+
+p {
+    /* Improve line wrapping */
+    text-wrap: pretty;
 }
 
 /* Set images and media elements to be responsive */
@@ -114,4 +136,9 @@ table {
     /* Ensure that focus outlines are visible on custom components */
     outline: 2px solid currentColor;
     outline-offset: 2px;
+}
+
+/* Create a root stacking context for React & Next.js applications */
+#root, #__next {
+    isolation: isolate;
 }
