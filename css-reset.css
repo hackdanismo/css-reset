@@ -1,4 +1,15 @@
-/* Custom properties */
+/* 
+    CSS Reset v0.1.0
+    A lightweight and modern CSS reset for consistent styling across browsers.
+    Released under the MIT License.
+
+    Author: Hackdanismo
+    https://opensource.org/licenses/MIT
+*/
+
+/* ===============================
+   Custom properties
+   =============================== */
 :root {
     /* Font */
     --root-font-size: 16px;
