@@ -18,3 +18,24 @@ html {
     /* prevents iOS font scaling */
     -webkit-text-size-adjustment: 100%;
 }
+
+html, body {
+    /* Remove the default margin */
+    margin: 0;
+    /* Remove the default padding */
+    padding: 0;
+    /* Improve readability */
+    line-height: 1.5;
+}
+
+main {
+    /* Ensure the main element is treated as a block element (for older browsers) */
+    display: block;
+}
+
+/* Set images and media elements to be responsive */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
