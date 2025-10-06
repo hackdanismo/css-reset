@@ -63,7 +63,7 @@ $ mkdir styles
 $ touch index.html
 # Change directory into the styles folder
 $ cd styles
-# Create empty css-reset.min.css file abd where the CSS code can be pasted
+# Create empty css-reset.min.css file where the CSS code can be pasted
 $ touch css-reset.min.css
 ```
 
