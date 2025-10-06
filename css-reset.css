@@ -1,4 +1,20 @@
+/* Custom properties */
+:root {
+    --root-font-size: 16px;
+}
+
 /* Universal selector: applies styling properties to all elements */
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+html {
+    /* Set the root font size as a fallback if browsers do not support rem units */
+    font-size: var(--root-font-size);
+    /* Set the root font size */
+    font-size: calc(var(--root-font-size / 16));
+    /* Enable smooth scrolling for the page */
+    scroll-behavior: smooth;
+    /* prevents iOS font scaling */
+    -webkit-text-size-adjustment: 100%;
 }
