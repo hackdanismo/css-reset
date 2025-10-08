@@ -75,7 +75,6 @@ html, body {
 /* HTML5 display role reset for older browsers */
 article, aside, details, figcaption, figure, footer, 
 header, hgroup, main, menu, nav, section {
-    /* Ensure the main element is treated as a block element (for older browsers) */
     display: block;
 }
 
