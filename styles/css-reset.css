@@ -1,5 +1,5 @@
 /* 
-    CSS Reset v0.1.1
+    CSS Reset v0.1.2
     A lightweight and modern CSS reset for consistent styling across browsers.
     Released under the MIT License.
 
@@ -44,8 +44,6 @@ html {
     font-size: 1rem;
     /* Enable smooth scrolling for the page */
     scroll-behavior: smooth;
-    /* prevents iOS font scaling */
-    -webkit-text-size-adjustment: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
