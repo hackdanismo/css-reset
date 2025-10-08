@@ -1,5 +1,5 @@
 /* 
-    CSS Reset v0.1.2
+    CSS Reset v0.2.0
     A lightweight and modern CSS reset for consistent styling across browsers.
     Released under the MIT License.
 
@@ -72,7 +72,9 @@ html, body {
     line-height: calc(var(--root-font-size) / 16 + 0.5rem);
 }
 
-main {
+/* HTML5 display role reset for older browsers */
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, main, menu, nav, section {
     /* Ensure the main element is treated as a block element (for older browsers) */
     display: block;
 }
