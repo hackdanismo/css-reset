@@ -26,7 +26,7 @@ Open the code editor and save the following file as: `index.html`:
     <title>CSS Reset</title>
 
     <!-- Preload the main CSS stylesheet, not the reset here -->
-    <!-- <link rel="preload" href="styles/main.css" as="style" -->
+    <!-- <link rel="preload" href="styles/main.css" as="style"> -->
 
     <!-- Reset and any additional CSS stylesheets (load after preload) -->
     <link rel="stylesheet" href="styles/css-reset.min.css">

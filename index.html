@@ -12,8 +12,13 @@
 
     <title>CSS Reset</title>
 
+    <!-- Preload the main CSS stylesheet to improve performance -->
+    <link rel="preload" href="styles/main.css" as="style">
+
     <!-- CSS Reset stylesheet -->
     <link rel="stylesheet" href="styles/css-reset.min.css">
+    <!-- CSS main stylesheet TODO: to be minified -->
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header role="banner">
@@ -21,6 +26,16 @@
     </header>
     <main role="main">
         <!-- Page content here -->
+        <section>
+            <div class="container">
+                Page content here
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                Secondary page content here
+            </div>
+        </section>
     </main>
     <footer role="contentinfo">
         <!-- Footer content here -->
