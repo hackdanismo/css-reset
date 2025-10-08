@@ -23,7 +23,7 @@ Open the code editor and save the following file as: `index.html`:
     <!-- Set the color of the browser's top bar on mobile devices -->
     <meta name="theme-color" content="#fff">
 
-    <title>Basecamp</title>
+    <title>CSS Reset</title>
 
     <!-- Preload the main CSS stylesheet, not the reset here -->
     <!-- <link rel="preload" href="styles/main.css" as="style" -->
