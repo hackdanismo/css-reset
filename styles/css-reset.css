@@ -1,5 +1,5 @@
 /* 
-    CSS Reset v0.3.0
+    CSS Reset v0.4.0
     A lightweight and modern CSS reset for consistent styling across browsers.
     Released under the MIT License.
 
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
 }
 
-p {
+p, li, figcaption {
     /* Improve line wrapping */
     text-wrap: pretty;
 }
