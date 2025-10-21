@@ -1,5 +1,5 @@
 /* 
-    CSS Reset v0.4.0
+    CSS Reset v0.5.0
     A lightweight and modern CSS reset for consistent styling across browsers.
     Released under the MIT License.
 
@@ -7,9 +7,6 @@
     https://opensource.org/licenses/MIT
 */
 
-/* ===============================
-   Custom properties
-   =============================== */
 :root {
     /* Font */
     --default-font-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -136,11 +133,10 @@ table {
 
 [hidden] {
     /* Hide elements and support accessibility for screen-reader only content */
-    display: none !important;
+    display: none;
 }
 
-:focus,
-:focus-visible {
+:focus, :focus-visible {
     /* Ensure that focus outlines are visible on custom components */
     outline: 2px solid currentColor;
     outline-offset: 2px;
